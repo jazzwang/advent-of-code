@@ -68,6 +68,8 @@ scala> out(0)*out(1)*out(2)
 - ( 2020-12-09 23:37:18 )
 - learn from https://github.com/bbstilson/adventofcode/blob/main/build.sc
     - it will call `runMain( your_class_name )`
+- learn from https://github.com/bbstilson/adventofcode/blob/main/adventofcode/src/bbstilson/aoc2020/Day1.scala
+  - Scala FAQ: [HOW DOES YIELD WORK?](https://docs.scala-lang.org/tutorials/FAQ/yield.html)
 
 ## 2020-12-10
 
