@@ -84,3 +84,15 @@ commands += Command("day") { _ =>
   Command.process(s"runMain adventofcode.solutions.Day$formatted", previousState)
 }
 ```
+- ( 2020-12-10 15:05:25 )
+- learned how to do `scanf` (C) in Scala
+- https://alvinalexander.com/scala/how-to-extract-parts-strings-match-regular-expression-regex-scala/
+- learned how to check matched counts
+- `scala.collection.StringOps`
+- https://www.scala-lang.org/api/2.13.4/scala/collection/StringOps.html#count(p:Char=%3EBoolean):Int
+```scala
+def count(p: (Char) => Boolean): Int
+    // Counts the number of chars in this string which satisfy a predicate
+```
+- learned `XOR` operator in Java which works for Scala too.
+- https://stackoverflow.com/a/726665/4209274
