@@ -156,6 +156,8 @@ test
 - https://stackoverflow.com/a/16241998 - `'1'.asDigit` convert `Char` to `Int`
 - https://alvinalexander.com/scala/scala-convert-array-to-string-mkstring/ - convert Array[String] to String
 ```
+scala> val in = os.read.lines( os.home / ".aocd" / "2021" / "3" / "input.txt" )
+
 scala> in.size
 val res146: Int = 1000
 
@@ -201,3 +203,26 @@ scala> val o3 = more(oxygen.map(_(2)))
 ```
 - ( 2021-12-03 22:28:21 )
 
+## 2021-12-04
+
+- ( 2021-12-05 15:54:29 )
+```
+scala> :paste
+// Entering paste mode (ctrl-D to finish)
+
+import aocd.Problem
+object day4 extends Problem(2021, 4) {
+  def run(input: List[String]): Unit = {
+    println("test")
+  }
+}
+day4.main(new Array[String](4))
+
+// Exiting paste mode, now interpreting.
+
+test
+import aocd.Problem
+object day4
+```
+- ( 2021-12-05 15:57:01 )
+```

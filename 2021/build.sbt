@@ -8,3 +8,11 @@ commands += Command("day") { _ =>
   val formatted = "%02d".format(i)
   Command.process(s"runMain day$formatted", previousState)
 }
+
+// https://stackoverflow.com/questions/24996437/how-to-execute-a-bash-script-as-sbt-task/25005
+
+import scala.sys.process._
+lazy val distclean = taskKey[Unit]("Clean up temporary files and directories")
+distclean := {
+  "rm -rf project/target project/project target output spark-warehouse" !
+}
